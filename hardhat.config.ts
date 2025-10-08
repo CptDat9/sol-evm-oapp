@@ -61,13 +61,13 @@ const config: HardhatUserConfig = {
         //     url: process.env.RPC_URL_ARB_SEPOLIA || 'https://arbitrum-sepolia.gateway.tenderly.co',
         //     accounts,
         // },
-        'eth-sepolia': {
-            eid: EndpointId.ETHEREUM_TESTNET,
-            url: process.env.RPC_ETHEREUM_SEPOLIA,
-            accounts,
-        },
+        // 'eth-sepolia': {
+        //     eid: EndpointId.ETHEREUM_V2_TESTNET,
+        //     url: process.env.RPC_ETHEREUM_SEPOLIA,
+        //     accounts,
+        // },
         'bsc-testnet':{
-            eid: EndpointId.BSC_TESTNET,
+            eid: EndpointId.BSC_V2_TESTNET,
             url: process.env.RPC_BSC_TESTNET,
             accounts,
         },
