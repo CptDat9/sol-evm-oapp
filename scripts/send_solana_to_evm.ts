@@ -1,9 +1,9 @@
 import { publicKey, transactionBuilder } from "@metaplex-foundation/umi";
 import bs58 from "bs58";
 import { Options } from "@layerzerolabs/lz-v2-utilities";
-import { myoapp } from "../lib/client/index.js";
-import { addComputeUnitInstructions, deriveConnection, getSolanaDeployment, TransactionType } from "../tasks/solana/index.js";
-import { getLayerZeroScanLink, isV2Testnet } from "../tasks/utils.js";
+import { myoapp } from "../lib/client/index.ts";
+import { addComputeUnitInstructions, deriveConnection, getSolanaDeployment, TransactionType } from "../tasks/solana/index.ts";
+import { getLayerZeroScanLink, isV2Testnet } from "../tasks/utils.ts";
 
 async function main() {
   const fromEid = 40168; // Solana Devnet
